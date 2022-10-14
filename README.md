@@ -4,7 +4,7 @@ Implementation of all the Canva free web site templates in their original form a
 
 ## Business Templates
 
-- [Black and White Photographic Accounting Service](#Black and White Photographic Accounting Service)
+- [Black and White Photographic Accounting Service](#black-and-white-photographic-accounting-service)
 
 ## Education Templates
 
@@ -12,10 +12,10 @@ Implementation of all the Canva free web site templates in their original form a
 
 ## Portfolio Templates
 
-- [Grey Black Light Experimental Photography](#Grey Black Light Experimental Photography)
+- [Grey Black Light Experimental Photography](#grey-black-light-experimental-photography)
 
 ## Retail Templates
 
-# Black and White Photographic Accounting Service
+### Black and White Photographic Accounting Service
 
-# Grey Black Light Experimental Photography
+### Grey Black Light Experimental Photography
