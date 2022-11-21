@@ -13,7 +13,16 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
+        <div id="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#company-profile">Profile</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
         <div class="icon">
             <svg id="icon-btn_top">
                 <rect x="100" y="100" width="40" height="40" rx="2" fill="#eee"></rect>
@@ -32,11 +41,99 @@
         </div>
     </header>
     <main>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div id="company-profile" class="flex-boxes">
+            <div id="company-profile__img" class="flex-boxes__inner">
+                <img src="resources/Building.jpg" alt="Picture of a biulding in black and white">
+            </div>
+            <div id="company-profile__content" class="flex-boxes__inner">
+                <h1>Company Profile</h1>
+                <p>Established in 1992, Stratford Accounting is a full-service firm, offering affordable accounting solutions to individuals and local and international businesses.</p>
+                <button>Learn More ></button>
+            </div>
+        </div>
+        <div id="services" class="flex-boxes">
+            <div class="flex-boxes__inner">
+                <h1>Our</h1>
+                <h1>Services</h1>
+                <div id="services-img-container">
+                    <img src="resources/pen-for-dark.jpg" alt="Pen on paper">
+                </div>                
+            </div>
+            <div id="services__content" class="flex-boxes__inner">
+                <div>
+                    <div class="service__title">
+                        <h1>01</h1>
+                        <h2>Tax Preparation</h2>
+                    </div>
+                    <div class="text">                        
+                        <p>We prepare everything you need for your tax return</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="service__title">
+                        <h1>02</h1>
+                        <h2>Startup Package</h2>
+                    </div>
+                    <div class="text">                        
+                        <p>We build financial models you can pitch to investors</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="service__title">
+                        <h1>03</h1>
+                        <h2>Wealth Management</h2>
+                    </div>
+                    <div class="text">                        
+                        <p>We deliver thoughtful investment advisory services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="clients">
+            <h1>Our Client Roster</h1>
+            <h3>From our early days, we've been providing reliable service to our clientele.</h3>
+            <h3>We've had the honor being the firm of choice of the following corporations:</h3>
+            <div id="clients-img-container">
+                <div class="clients-img__inner">
+                    <img src="resources/people-0.jpg" alt="People closing a deal">
+                    <div class="img-title"><b>Belden Bank LTD</b></div>
+                </div>
+                <div class="clients-img__inner">
+                    <img src="resources/people-1.jpg" alt="People on a meeting">
+                    <div class="img-title"><b>Michaelson Digital</b></div>
+                </div>
+                <div class="clients-img__inner">
+                    <img src="resources/people-2.jpg" alt="Coworkers walking on a street">
+                    <div class="img-title"><b>Perlanton Securities</b></div>
+                </div>
+            </div>
+        </div>
+        <div id="quote">
+            <h1>"Accounting is our expertise. We'll take care of it, so you can focus on yours."</h1>
+            <h2>- Chidi Eze, CEO</h2>
+        </div>
+        <div id="contact" class="flex-boxes">
+            <div class="flex-boxes__inner">
+                <h1>Let's work together.</h1>
+                <div class="contact-img-container">
+                    <img src="resources/handshake-for-dark.jpg" alt="Man extending a hand for a handshake">
+                </div>
+            </div>
+            <div class="flex-boxes__inner">
+                <div class="contact__address">
+                    <h2>Mailing Address</h2>
+                    <h3>123 Anywhere St. Any City, ST 12345</h3>
+                </div>
+                <div class="contact__phone">
+                    <h2>Phone Number</h2>
+                    <h3>(123) 456-7890</h3>
+                </div>
+                <div class="contact__email">
+                    <h2>Email Address</h2>
+                    <h3>hello@reallygreatsite.com</h3>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 
